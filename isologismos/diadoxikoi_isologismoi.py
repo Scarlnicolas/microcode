@@ -12,7 +12,7 @@ while apo < 0:
     print ("Η τιμή είναι αρνητική.")
     apo = int(input("Δώστε έγκυρη τιμή απολήψεων: "))
 arx = int(input("Δώστε τιμή αρχικού κεφαλαίου: "))
-tel = int(input("Δώστε έγκυρη τιμή τελικού κεφαλαίου: "))
+tel = int(input("Δώστε τιμή τελικού κεφαλαίου: "))
 if eis == 0 and apo == 0:
     x = tel - arx
     if tel > arx:
