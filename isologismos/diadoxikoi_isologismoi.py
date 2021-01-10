@@ -18,7 +18,7 @@ while arx < 0:
 tel = int(input("Δώστε τιμή τελικού κεφαλαίου: "))
 while tel < 0:
     print ("Η τιμή είναι αρνητική.")
-    tel = int(input("Δώστε έγκυρη τιμή αρχικού κεφαλαίου: "))
+    tel = int(input("Δώστε έγκυρη τιμή τελικού κεφαλαίου: "))
 if eis == 0 and apo == 0:
     x = tel - arx
     if tel > arx:
