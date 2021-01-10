@@ -15,9 +15,9 @@ arx = int(input("Δώστε τιμή αρχικού κεφαλαίου: "))
 tel = int(input("Δώστε τιμή τελικού κεφαλαίου: "))
 if eis == 0 and apo == 0:
     x = tel - arx
-    if tel > arx:
+    if x > 0:
         print ("Κέρδος:", x, "ευρώ")
-    elif tel < arx:
+    elif x < 0:
         print ("Ζημιά:", x, "ευρώ")
     else:
         print ("Δεν υπάρχει κέρδος, ούτε ζημιά.")
