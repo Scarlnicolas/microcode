@@ -21,7 +21,7 @@ if eis == 0 and apo == 0:
         print ("Ζημιά:", x, "ευρώ")
     else:
         print ("Κέρδος:", x, "ευρώ", "\n" + "Ζημιά:", x, "ευρώ")
-elif eis > 0 or apo > 0:
+else:
     x = tel - arx - eis + apo
     if x > 0:
         print ("Κέρδος:", x, "ευρώ")
