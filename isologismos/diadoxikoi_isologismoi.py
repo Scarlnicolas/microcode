@@ -24,7 +24,7 @@ if eis == 0 and apo == 0:
     elif x < 0:
         print("Ζημιά:", x, "ευρώ")
     else:
-        print("Δεν υπάρχει κέρδος, ούτε ζημιά.")        
+        print("Δεν υπάρχει κέρδος, ούτε ζημιά.")
 else:
     x = tel - arx - eis + apo
     if tel < 0:
