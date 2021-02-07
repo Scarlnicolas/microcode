@@ -13,7 +13,7 @@ while apo < 0:
 arx = float(input("Δώστε ποσό αρχικού κεφαλαίου: "))
 tel = float(input("Δώστε ποσό τελικού κεφαλαίου: "))
 x = tel - arx - eis + apo
-if arx < 0 and tel < 0 or arx < 0 or tel < 0:
+if arx < 0 or tel:
     print ("Το αποτέλεσμα είναι:", x)
 elif x > 0:
     print ("Το κέρδος είναι:", x)
