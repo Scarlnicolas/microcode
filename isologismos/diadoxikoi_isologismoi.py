@@ -8,16 +8,14 @@ while eis < 0:
     eis = float(input("Δώστε έγκυρο ποσό εισφορών: "))
 apo = float(input("Δώστε ποσό απολήψεων: "))
 while apo < 0:
-    print ("Ο αριθμός είναι αρνητικός.")
+    print ("Το ποσό είναι αρνητικό.")
     apo = float(input("Δώστε έγκυρο ποσό απολήψεων: "))
 arx = float(input("Δώστε ποσό αρχικού κεφαλαίου: "))
 tel = float(input("Δώστε ποσό τελικού κεφαλαίου: "))
 x = tel - arx - eis + apo
-if arx < 0 or tel < 0:
+if arx <= 0 or tel <= 0:
     print ("Το αποτέλεσμα είναι:", x)
 elif x > 0:
     print ("Το κέρδος είναι:", x)
-elif x < 0:
-    print ("Η ζημιά είναι:", x)
 else:
-    print ("Το κέρδος είναι:", x, "|", "Η ζημιά είναι:", x)
+    print ("Η ζημιά είναι:", x)
