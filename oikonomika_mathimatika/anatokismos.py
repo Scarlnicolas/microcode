@@ -4,6 +4,6 @@
 
 present_value = float(input("Αρχικό κεφάλαιο: "))
 i = float(input("Επιτόκιο (π.χ: 0.06 αντί για 6%): "))
-n = float(input("Χρονικά διαστήματα: "))
+n = float(input("Χρονικά διαστήματα (π.χ: 10 για δέκα έτη): "))
 compount_amount = present_value * (1 + i) ** n
 print ("Τελικό κεφάλαιο:", compount_amount)
