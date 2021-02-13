@@ -7,6 +7,6 @@ present_value = float(input("Αρχικό κεφάλαιο: "))
 epi = float(input("Επιτόκιο: ")) 
 # Παράδειγμα 1: 5 έτη και 1 εξάμηνο --> 5 * 2 + 1 = 11 εξάμηνα --> Χρονικά διαστήματα: 11.
 # Παράδειγμα 2: 4 έτη --> Χρονικά διαστήματα: 4.
-chr = int(input("Χρονικά διαστήματα: ")) 
-tel_Kef = present_value * (1 + epi) ** chr
+chron = int(input("Χρονικά διαστήματα: ")) 
+tel_Kef = present_value * (1 + epi) ** chron
 print ("Τελικό κεφάλαιο:", tel_Kef)
