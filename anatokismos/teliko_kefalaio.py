@@ -8,5 +8,5 @@ interest_rate = float(input("Επιτόκιο: "))
 # Παράδειγμα 1: 5 έτη και 1 εξάμηνο --> 5 * 2 + 1 = 11 εξάμηνα --> Χρονικά διαστήματα: 11.
 # Παράδειγμα 2: 4 έτη --> Χρονικά διαστήματα: 4.
 time = int(input("Χρονικά διαστήματα: ")) 
-capital = present_value * (1 + interest_rate) ** time
-print ("Τελικό κεφάλαιο:", capital)
+future_value = present_value * (1 + interest_rate) ** time
+print ("Τελικό κεφάλαιο:", future_value)
