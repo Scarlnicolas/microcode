@@ -14,10 +14,10 @@ arx = float(input("Δώστε ποσό αρχικού κεφαλαίου: "))
 tel = float(input("Δώστε ποσό τελικού κεφαλαίου: "))
 x = tel - arx - eis + apo
 if arx < 0 or tel < 0:
-    print ("Το αποτέλεσμα είναι:", round(x,2))
+    print ("Το αποτέλεσμα είναι:", round(x, 2))
 elif x > 0:
-    print ("Το κέρδος είναι:", round(x,2))
+    print ("Το κέρδος είναι:", round(x, 2))
 elif x < 0:
-    print ("Η ζημιά είναι:", round(x,2))
+    print ("Η ζημιά είναι:", round(x, 2))
 else:
     print ("Το αποτέλεσμα είναι:", x)
