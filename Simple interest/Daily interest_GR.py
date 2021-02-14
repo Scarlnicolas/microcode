@@ -12,6 +12,6 @@ while days_in_year != 360 and days_in_year != 365 and days_in_year != 366:
     days_in_year = int(input("Ημέρες του έτους: "))
 interest = capital * days * interest_rate / days_in_year
 if days_in_year == 365 or days_in_year == 366:
-    print ("Ο τόκος είναι για το πολιτικό έτος είναι:", interest)
+    print ("Ο τόκος για το πολιτικό έτος είναι:", interest)
 else:
     print("Ο τόκος για το μεικτό ή εμπορικό έτος είναι:", interest)
