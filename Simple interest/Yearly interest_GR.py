@@ -8,4 +8,4 @@ interest_rate = float(input("Επιτόκιο: "))
 # Παράδειγμα 2: 4 έτη --> Χρονικά διαστήματα: 4.
 time = int(input("Χρονικά διαστήματα: ")) 
 interest = capital * time * interest_rate
-print ("Ο τόκος του κεφαλαίου είναι:", round(interest,2))
+print ("Ο τόκος του κεφαλαίου είναι:", round(interest, 2))
