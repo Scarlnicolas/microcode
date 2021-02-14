@@ -3,4 +3,4 @@
 
 daily_salary = float(input("Δώστε ποσό ημερομισθίου: "))
 hourly_salary = daily_salary * 0.15
-print ("Το ωρομίσθιο είναι", round (hourly_salary, 2), "ευρώ")
+print ("Το ωρομίσθιο είναι", round(hourly_salary, 2), "ευρώ")
