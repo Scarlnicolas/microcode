@@ -6,7 +6,7 @@ price = float(input("give a price number: " ))
 variable = input("do you know variable_c? ")
 if variable == "yes":
     print("ok")
-    variable_c=float(input("give a viariable c: "))
+    variable_c = float(input("give a viariable c: "))
 elif variable == "no":
     print("you don't know variable c. ")
     quan = input("do you know quantility? ")
